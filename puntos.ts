@@ -1,5 +1,6 @@
-//crear clase persona con nombre, edad y metodo saludar que imprima “Persona: Tú nombre es xxxx y tienes xx años”
-class Persona {
+//crear clase persona y exportarla con nombre, edad y metodo saludar que imprima “Persona: Tú nombre es xxxx y tienes xx años”
+
+export class Persona {
     nombre: string;
     edad: number;
     constructor(nombre: string, edad: number) {
